@@ -14,6 +14,7 @@ export const character: Character = {
   clients: [Clients.DISCORD],
   modelProvider: ModelProviderName.OPENAI,
   settings: {
+    model: "gpt-4o-mini",
     secrets: {},
     voice: {
       model: "en_US-hfc_male-medium",
